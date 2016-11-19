@@ -1,0 +1,29 @@
+{
+  "name": "btc-exchanges",
+  "version": "0.0.1",
+  "description": "Utilities for fetching BTC Exchanges' data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development DEBUG=btc-exchanges* nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://renancaldas@github.com/renancaldas/btc-exchanges.git"
+  },
+  "author": "Renan Caldas <renan.caldas@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renancaldas/btc-exchanges/issues"
+  },
+  "homepage": "https://github.com/renancaldas/btc-exchanges#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.24.0",
+    "debug": "^2.3.2",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "q": "^1.4.1",
+    "request": "^2.79.0"
+  }
+}
