@@ -1,7 +1,7 @@
 {
   "apps" : [{
     "name"        : "btc-exchanges",
-    "script"      : "~/btc-exchanges/app.js",
+    "script"      : "~/btc-exchanges/master/app.js",
     "watch"       : true,
     "ignore_watch": [".git", "node_modules"],
     "env": {
